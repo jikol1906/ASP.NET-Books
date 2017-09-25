@@ -1,0 +1,10 @@
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/bin/Debug/netcoreapp2.0/ConsoleApp.SQLite.deps.json
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/bin/Debug/netcoreapp2.0/ConsoleApp.SQLite.runtimeconfig.json
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/bin/Debug/netcoreapp2.0/ConsoleApp.SQLite.runtimeconfig.dev.json
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/bin/Debug/netcoreapp2.0/ConsoleApp.SQLite.dll
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/bin/Debug/netcoreapp2.0/ConsoleApp.SQLite.pdb
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/obj/Debug/netcoreapp2.0/ConsoleApp.SQLite.csproj.CoreCompileInputs.cache
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/obj/Debug/netcoreapp2.0/ConsoleApp.SQLite.AssemblyInfoInputs.cache
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/obj/Debug/netcoreapp2.0/ConsoleApp.SQLite.AssemblyInfo.cs
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/obj/Debug/netcoreapp2.0/ConsoleApp.SQLite.dll
+/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/obj/Debug/netcoreapp2.0/ConsoleApp.SQLite.pdb
