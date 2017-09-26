@@ -9,29 +9,9 @@
 </head>
 <body>
 
-  @Html.Partial("_navbar")
-    
-    <div class="container">
-  <h2>Books</h2>           
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-      </tr>
-    </thead>
-    <tbody>
-      @foreach(var b in @Model) {
-        <tr>
-          <td>@b.Name</td>
-          <td>@b.Author</td>
-          <td><button class="btn">Delete</button></td>
-        </tr>
-      }
-      
-    </tbody>
-  </table>
-</div>
+    @Html.Partial("_navbar")
+
+    <h1>in addbook</h1>
     
 </body>
 </html>

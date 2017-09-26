@@ -10,9 +10,7 @@ namespace ConsoleApp.SQLite.Controllers
 {
     public class HomeController : Controller
     {
-
         BookContext db = new BookContext();
-
         
 
         public IActionResult Index()
@@ -24,17 +22,15 @@ namespace ConsoleApp.SQLite.Controllers
             return View(db.Books);
         }
 
-        public IActionResult About()
+        public IActionResult Delete()
         {
-            ViewData["Message"] = "Your application description page.";
+            
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult addBook()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 

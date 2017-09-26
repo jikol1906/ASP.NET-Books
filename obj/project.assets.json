@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/ConsoleApp.SQLite.csproj",
+      "projectUniqueName": "/Users/BorisGrunwald/Desktop/Skole/ConsoleApp.SQLite/ConsoleApp.SQLite.csproj",
       "projectName": "ConsoleApp.SQLite",
-      "projectPath": "/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/ConsoleApp.SQLite.csproj",
+      "projectPath": "/Users/BorisGrunwald/Desktop/Skole/ConsoleApp.SQLite/ConsoleApp.SQLite.csproj",
       "packagesPath": "/Users/BorisGrunwald/.nuget/packages/",
-      "outputPath": "/Users/BorisGrunwald/Desktop/ConsoleApp.SQLite/obj/",
+      "outputPath": "/Users/BorisGrunwald/Desktop/Skole/ConsoleApp.SQLite/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
