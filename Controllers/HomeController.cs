@@ -10,33 +10,58 @@ namespace ConsoleApp.SQLite.Controllers
 {
     public class HomeController : Controller
     {
-        BookContext db = new BookContext();
+        
+        readonly BookContext db = new BookContext();
         
 
         public IActionResult Index()
         {
-            db.Books.Add(new Book{Name="Title",Author="Author"});
-
-            db.SaveChanges();
-
+            Console.WriteLine("in Index");
+            
             return View(db.Books);
         }
 
-        public IActionResult Delete()
-        {
-            
+        
 
-            return View();
+        public IActionResult Delete(int id)
+        {
+            Console.WriteLine("in Delete");
+            
+            db.Books.Remove(new Book{BookId=id});
+
+            db.SaveChanges();
+
+
+
+            return RedirectToAction("Index");
         }
 
-        public IActionResult addBook()
+        [HttpPost]
+        public IActionResult Create(Book b)
         {
-            return View();
+
+//            if (!ModelState.IsValid)
+//            {
+//                
+//            }
+//            
+            Console.WriteLine("in Create");
+            
+            db.Add(b);
+            db.SaveChanges();
+            
+            return RedirectToAction("Index");
         }
 
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult AddBook()
+        {
+            Console.WriteLine("in AddBook");
+            return View();
         }
     }
 }

@@ -1,3 +1,4 @@
+@using Microsoft.AspNetCore.Mvc.Rendering
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +10,24 @@
 </head>
 <body>
 
-    @Html.Partial("_navbar")
+@Html.Partial("_navbar")
 
-    <h1>in addbook</h1>
+<div class="container">
+
+    <form method="post" asp-action="Create">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Book name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Author</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="Author" placeholder="Author">
+        </div>
+        <input type="button" class="btn btn-primary" value="submit"></input>
+    </form>
     
+    @using(Html.BeginForm())
+    
+</div>
 </body>
 </html>

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{C612AD6D-355D-4122-BF38-995AC8FEB716}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/addBook.cshtml">
+    <Files>
+      <File FileName="Views/Home/index.cshtml" Line="12" Column="27" />
+      <File FileName="Views/Shared/_navbar.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Home/addBook.cshtml" Line="30" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

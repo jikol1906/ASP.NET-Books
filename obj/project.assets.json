@@ -12535,8 +12535,7 @@
     ]
   },
   "packageFolders": {
-    "/Users/BorisGrunwald/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/BorisGrunwald/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12547,11 +12546,8 @@
       "packagesPath": "/Users/BorisGrunwald/.nuget/packages/",
       "outputPath": "/Users/BorisGrunwald/Desktop/Skole/ConsoleApp.SQLite/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/BorisGrunwald/.nuget/NuGet/NuGet.Config"
+        "/Users/BorisGrunwald/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12563,11 +12559,6 @@
         "netcoreapp2.0": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
@@ -12575,8 +12566,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
+            "version": "2.0.0"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
